@@ -7,9 +7,15 @@ let date = new Date();
 let day = new Date().getDate();
 let month = new Date().getMonth() +1;
 let year = new Date().getFullYear();
-let newDate = day + "." + month + "." + year;
+let newDate = day + "/" + month + "/" + year;
 
-function showDate () {
-    document.getElementById("displayDate").innerHTML = newDate;
+function eventHandler() {
+    alert("Today is" +  newDate);
 }
+
+function showDate (newDate) {
+   
+}
+
+
 
